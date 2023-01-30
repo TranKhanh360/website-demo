@@ -1,0 +1,68 @@
+.form{
+    width: 360px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+    box-shadow: 1.5px 3px 6px rgb(148, 68, 68);
+
+    padding-bottom: 30px;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form .header{
+    padding-top: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.body a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.body a:hover{
+    color: red;
+}
+
+.header h3{
+    text-align: left;
+    padding-left: 12px;
+    font-size: xx-large;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.inp{
+    width: 81%;
+    padding: 10px;
+
+    margin-bottom: 12px;
+}
+
+.divAgre{
+    width: 81%;
+    margin: auto;
+}
+
+.divAgre input{
+
+}
+
+#btn-login{
+    width: 84%;
+    margin-top: 18px;
+    height: 45px;
+    background-color: rgb(255, 189, 189);
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+#btn-login:hover{
+    background-color: lightcoral;
+}

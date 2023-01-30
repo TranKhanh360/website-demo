@@ -1,0 +1,273 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+/*------css header----------------------- */
+.header-index{
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding-top: 15px;
+
+    text-align: center;
+    border-bottom: 3px solid lightcoral ;
+
+    background-color: #F5E9E9;}
+.input-container {
+    display: -ms-flexbox;
+    display: flex;}
+.logo{
+    display: inline-block;
+    width: 27%;
+    height: 90px;}
+.search{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin-left: 3%;
+    height: 90px;}
+.search nav{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;}
+.user-log{
+    display: flex;
+    justify-content:space-around;
+    width: 24%;
+    margin-left: 45px;
+    height: 60px;
+    padding: 7px ;
+    outline: auto lightcoral;}
+.user-log a:hover{
+    text-decoration: none;}
+#logokidcare{
+    width: 100%;
+    height: 81px;}
+#input-search{
+    width: 81%;
+    height: 36px;
+    border: none;
+    border-radius: 9px 0px 0px 9px;
+    font-size: 15px;
+    padding-left: 9px;
+    border: none;
+    margin-left: 0px;}
+#btn-search{
+    width: 9%;
+    height: 36px;
+    border-radius: 0px 9px 9px 0px;
+    border: none;
+    margin-right: 0px;
+    background-color: lightcoral;}
+#btn-search:hover{
+    background-color: rgb(247, 172, 75);}
+.about-user{
+    display: flex;
+    width: 100%;}
+.about-user i{
+    margin: 6px;
+    width: 30px;
+    height: auto;}
+.about-user p{
+    margin-left: 21px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;}
+.about-user:hover{
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(240, 89, 89);}
+#icon{
+    font-size: 36px;
+    height: 36px;
+
+    color: lightcoral;
+    border-radius: 6px;}
+p.name-icon{
+    margin: auto;}
+    p.name-icon-1{
+        margin: auto;
+        margin-left: 3px;
+    }
+    
+    p.name-icon-2{
+        margin: auto;
+        margin-left: 4.5px;
+    }
+    
+    .nav{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+        border-radius: 9px;
+        font-size: medium;
+        color: lightcoral;
+    
+        margin-top: 12px;
+    }
+    
+    .nav a{
+        text-decoration: none;
+    }
+    
+    .nav a:hover{
+        color: lightcoral;
+        text-decoration: none;
+    }
+    
+    .nav div{
+        margin: auto;
+    }
+/*------------------------------------- */
+
+/*------css footer----------------------- */
+footer{
+    padding-bottom: 15px;
+    width: 100%;
+    height: 27%;
+    margin: auto;
+    background-color:paleturquoise;
+    margin-top: 10px;
+    text-align: center;}
+.header-footer{
+    display: inline-table;
+    text-align: center;}
+.dk{
+    display: -ms-flexbox;
+    display: flex;}  
+.hder-foot{
+    display: inline-table;
+    text-align: left;
+    margin-left: 36px;
+    line-height: 1.8;}
+#divEnd{
+    margin-left: 126px;}
+#divStart{
+    margin-left: 0;}
+a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);}
+a:hover{
+    color:rgb(39, 39, 39);
+    text-decoration: underline;}
+#title-eml{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 12px;}
+#int-eml{
+    width: 240px;
+    height: 36px;
+    border: none;
+    border-radius: 9px 0px 0px 9px;
+    font-size: 18px;
+
+    padding: 0px;}
+#btn-eml{
+    height: 36px;
+    background-color: lightcoral;
+    color: brown;
+    font-weight:600;
+    border: none;
+    border-radius: 0px 9px 9px 0px;}
+#btn-eml:hover{
+    background-color: rgb(247, 172, 75);}
+#ic-face{
+    font-size: 30px;
+    color: blue;
+    vertical-align: middle;}
+#ic-yout{
+    font-size: 30px;
+    color: red;
+    vertical-align: middle;}
+#ic-tik{
+    font-size: 27px;
+    color:black;
+    vertical-align: middle;}
+#ic-ins{
+    font-size: 27px;
+    color:rgb(93, 156, 56);
+
+    vertical-align: middle;}
+.dv{
+    font-weight: 300;}
+
+/*------------*/
+.divLog{
+    display:flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.divLog a{
+    font-size: x-large;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-decoration: none;
+    color: rgb(196, 196, 196); 
+    border-bottom: 2.1px solid rgb(196, 196, 196) ;
+}
+
+.divLog a:focus{
+    color: rgb(117, 62, 62);
+    border-bottom: 2.1px solid lightcoral;
+}
+
+.logInOut iframe{
+    width: 100%;
+    height:480px;
+    margin-top: 45px;
+}
+
+.div1{
+    margin: auto;
+    width: 600px;
+}
+
+.div1 .title{
+    text-align: left;
+}
+
+.div2{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 500px;
+}
+
+.div2 ul{
+    text-align: left;
+
+}
+
+.div2 a{
+    text-decoration: none;
+    border: none;
+}
+
+.div2 .title{
+    font-size: 45;
+    text-align: left;
+    font-weight: 600;
+}
+
+.div2 .divDownL{
+    display: flex;
+    flex-wrap: wrap;
+}

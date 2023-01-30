@@ -1,0 +1,109 @@
+.form{
+    width: 360px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+    box-shadow: 1.5px 3px 6px rgb(148, 68, 68);
+
+    padding-bottom: 30px;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    text-align: center;
+
+}
+
+#foget{
+    float: right;
+    margin-right: 33px;
+}
+
+a:hover{
+    color: red;
+}
+
+.body a{
+    text-decoration: none;
+
+}
+
+.header h3{
+    text-align: left;
+    padding-left: 12px;
+    font-size: xx-large;
+}
+
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 81%;
+    margin-bottom: 15px;
+    margin: auto;
+    margin-top: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 30px;
+    text-align: center;
+    border-left: none;
+    border: 1px solid;
+}
+
+.input-field-1{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-left: none;
+    
+    border: 1px solid;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    
+    border: 1px solid;
+}
+
+#btn-login{
+    width: 81%;
+    margin-top: 18px;
+    height: 36px;
+    background-color: rgb(0, 170, 0);
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+#btn-login:hover{
+    background-color: green;
+}
+
+.btn{
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+#btn-fa{
+    background-color: blue;
+}
+
+#btn-gg{
+    background-color: red;
+}
+
+#ic-psw:hover, #ic-psw:focus{
+    color: grey;
+    
+}
+
+
+

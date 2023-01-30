@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidCare</title>
+    <link rel="stylesheet" href="./css/StyleFeedback.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+</head>
+<body>
+    <div class="header-index">
+        <div class="logo">
+            <a href="./Index.html"><img id="logokidcare" src="./images/logo_4.png" alt=""></a>
+        </div>
+        <div class="search">
+            <div class="input-container">
+                <input id="input-search" type="search" name="" placeholder="Ba mẹ tìm gì cho bé?">
+                <button id="btn-search" type="submit"><i class="fas fa-search"></i></button>    
+            </div>
+            <div class="nav">
+                <div><i class="fas fa-mobile-alt"></i><a href=""> Tải app ngay</a></div>
+
+                <div><i class="fas fa-shipping-fast"></i><a href=""> Free ship 7km</a></div>
+            </div>
+        </div>
+        <div class="user-log">
+            <a href="./logInOut.html"><div class="about-user">
+                <i id="icon" class="fas fa-user"></i>
+                <p class="name-icon"> Đăng ký/<br>đăng nhập</p>
+            </div></a>
+            <a href="./Feedback.html"><div class="about-user">
+                <i id="icon" class="fas fa-comment-medical"></i>
+                <p class="name-icon-1"> Góp ý</p> 
+            </div></a>
+            <a href=""><div class="about-user">
+                <i id="icon" class="fas fa-shopping-cart"></i>
+                <p class="name-icon-2"> Giỏ hàng</p>
+            </div></a>
+        </div>
+    </div>
+
+    <div class="feedback">
+        
+        <form>
+            <h1>ĐÓNG GÓP Ý KIẾN SẢN PHẨM</h1>
+            <input id="name" type="text" placeholder="Họ và tên"> 
+            <input id="cardID" type="text" placeholder="Mã thẻ">
+            <input id="phoneNumber" type="text" placeholder="Số điện thoại"> 
+            <input id="email" type="text" placeholder="Email">
+            <input id="typeofCustom" list="typeof" name="browser"  placeholder="Chọn loại khách hàng">
+            <input id="maHD" type="text" placeholder="Mã hóa đơn">
+            <textarea id="textare" placeholder="Nhập chi tiết mô tả"></textarea>
+            
+            <button id="sub">GỬI GÓP Ý <i id="ic-btn" class="fab fa-facebook-messenger"></i></button>
+
+            <datalist id="typeof">
+              <option value="Vip">
+              <option value="Thường xuyên">
+              <option value="lần đầu">
+              <option value="nước ngoài">
+              <option value="khác">
+            </datalist>
+        </form>
+    </div>
+
+    <footer>
+        <div class="header-footer">
+            <div class="hder-foot" id="divStart">
+                <h3>Về KidCare</h3>
+                <a href="./AboutUs.html">Giơi thiệu KidCare</a><br>
+                <a href="">Điều khoảng sử dụng</a><br>
+                <a href="">Chính sách bảo mật</a><br>
+                <a href="">Danh sách khách hàng</a><br>
+                <a href="">Tuyển dụng</a><br>
+            </div>
+
+            <div class="hder-foot">
+                <h3>Hỗ trợ khách hàng</h3>
+                <a href="">Hotline hỗ trợ: 1900 0000</a><br>
+                <a href="">Quy định đổi trả hàng</a><br>
+                <a href="">Phương thức giao hàng</a><br>
+                <a href="">Chính sách bảo hành</a><br>
+                <a href="">Câu hỏi thường gặp</a><br>
+            </div>
+
+            <div class="hder-foot">
+                <h3>Hệ thống tiện ích</h3>
+                <a href="">Tra cứu hóa đơn điện tử</a><br>
+                <a href="">Kiểm tra đơn hàng</a><br>
+                <a href="">Hướng dẫn đơn hàng</a><br>
+                <a href="">Hướng dẫn tải App</a><br>
+                <a href="">Phương thức thanh toán</a><br>
+            </div>
+
+            <div class="hder-foot">
+                <h3>Kênh thông tin</h3>
+                <a href=""><i id="ic-face" class="fab fa-facebook-square"></i> Facebook</a><br>
+                <a href=""><i id="ic-yout" class="fab fa-youtube"></i>    Youtube</a><br>
+                <a href=""><i id="ic-tik" class="fab fa-tiktok"></i> TikTok</a><br>
+                <a href=""><i id="ic-ins" class="fab fa-instagram-square"></i> Instagram</a><br>
+            </div>
+
+            <div class="hder-foot" id="divEnd">
+                <h3 id="title-eml">Nhận tin khuyến mãi và quà</h3>
+                <div class="dk">
+                    <input type="email" name="" id="int-eml">
+                    <button id="btn-eml" type="submit">ĐĂNG KÝ</button>    
+                </div>
+                <p class="dv">
+                    Đơn vị chủ quản: Công ty cổ phần KidCare<br>
+                    Địa chỉ: asvasfjdasdj akjsasjdsksd kajsasjd askjd h<br>
+                    Điện Thoại: 1900 0056  Emai: kasjdhd@gmail.com<br>
+                    Mã số thuế/ Mã số doanh nghiệp: *********,<br> Ngày cấp: **/00/2000. ****
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="./js/javascript.js"></script>
+    <script src="./js/jsFeedback.js"></script>
+</body>
+</html>
